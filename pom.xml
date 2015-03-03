@@ -33,10 +33,23 @@
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                 <artifactId>android-maven-plugin</artifactId>
                 <version>4.0.0-rc.2</version>
+                <executions>
+                <execution>
+                    <id>lint</id>
+                    <goals>
+                        <goal>lint</goal>
+                    </goals>
+                    <phase>install</phase>
+                </execution>
+                </executions>
                 <configuration>
                     <sdk>
                         <platform>21</platform>
                     </sdk>
+                    <lint>
+                    <skip>false</skip>
+                    <failOnError>false</failOnError>
+                    </lint>	
                     <deleteConflictingFiles>true</deleteConflictingFiles>
                     <undeployBeforeDeploy>true</undeployBeforeDeploy>
                 </configuration>
