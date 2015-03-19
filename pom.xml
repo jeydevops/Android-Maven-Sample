@@ -8,7 +8,7 @@
     <packaging>apk</packaging>
 
     <properties>
-        <!-- use UTF-8 for everything - OK -->
+        <!-- use UTF-8 for everything - OKK-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
