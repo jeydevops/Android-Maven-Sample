@@ -44,7 +44,7 @@
                 </executions>
                 <configuration>
                     <sdk>
-                        <platform>21</platform>
+                        <platform>24</platform>
                     </sdk>
                     <lint>
                     <skip>false</skip>
